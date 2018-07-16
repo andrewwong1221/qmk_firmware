@@ -37,4 +37,15 @@
 /* override number of MIDI tone keycodes (each octave adds 12 keycodes and allocates 12 bytes) */
 //#define MIDI_TONE_KEYCODE_OCTAVES 2
 
+
+// Always send Escape if Ctrl is pressed.
+#define GRAVE_ESC_CTRL_OVERRIDE
+
+// Space Cadet Shift Enter
+// -----------------------
+// Enter when used alone, Shift when used with another key
+#define SFTENT_KEY KC_ENT
+
+
+
 #endif
